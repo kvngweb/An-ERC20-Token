@@ -11,7 +11,7 @@ contract MyTokenTest is Test {
         token = new MyToken(1000);
     }
 
-    function testTotalSupply() public {
+    function testTotalSupply() public view {
         assertEq(token.totalSupply(), 1000 * 10 ** token.decimals());
     }
 }
