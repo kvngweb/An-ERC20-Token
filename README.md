@@ -64,4 +64,3 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
-# An-ERC20-Token
